@@ -1,0 +1,91 @@
+predictops-api         predictops-ai-api         "python -m uvicorn a…"   api         About a minute ago   Up About a minute (healthy)   0.0.0.0:8000->8000/tcp, [::]:8000->8000/tcp
+predictops-dashboard   predictops-ai-dashboard   "streamlit run dashb…"   dashboard   About a minute ago   Up About a minute             0.0.0.0:8502->8501/tcp, [::]:8502->8501/tcp
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git status
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git init
+Initialized empty Git repository in C:/Users/Niraj Sah/Desktop/ML/PredictOps-AI/.git/
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git config --global user.name "CreAdiTv" 
+>> git config --global user.email "adityaaaryan1112@gmail.com"   
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .dockerignore
+        .gitignore
+        Dockerfile
+        README.md
+        Screenshots/
+        api/
+        artifacts/
+        dashboard/
+        data/
+        docker-compose.yml
+        notebooks/
+        requirements.txt
+        src/
+        tests/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> Get-Content .gitignore
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Generated data and model artifacts
+/data/raw/*
+!/data/raw/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+/artifacts/*
+!/artifacts/.gitkeep
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git status            
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .dockerignore
+        .gitignore
+        Dockerfile
+        README.md
+        Screenshots/
+        api/
+        artifacts/
+        dashboard/
+        docker-compose.yml
+        notebooks/
+        requirements.txt
+        src/
+        tests/
+
+nothing added to commit but untracked files present (use "git add" to track)
+PS C:\Users\Niraj Sah\Desktop\ML\PredictOps-AI> git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .dockerignore
+        .gitignore
+        Dockerfile
+        README.md
+        Screenshots/
+        api/
+        artifacts/
+        dashboard/
+        data/
+        docker-compose.yml
+        notebooks/
+        requirements.txt
+        src/
+        tests/
